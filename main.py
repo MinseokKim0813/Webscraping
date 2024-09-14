@@ -16,7 +16,7 @@ def scrape(url):
         print(f"Error: {e}")
 
 def main():
-    url = ""
+    url = "https://www.beehive.ae/"
     result = scrape(url)
     print(result)
 
