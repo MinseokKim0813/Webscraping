@@ -12,7 +12,7 @@ This data is being collected strictly for **educational and research purposes**.
 
 We follow ethical web scraping practices to ensure that our activities do not cause any harm or disruption to the website we collect data from:
 
-- **One-Time Scraping**: Our program is designed to scrape data only once, ensuring that it does not extract data at frequent or short intervals. This minimizes the potential load on the website’s infrastructure.
+- **One-Time Scraping**: Our program is designed to scrape data only once per execution, ensuring that it does not extract data at frequent or short intervals. This minimizes the potential load on the website’s infrastructure.
 - **Frequency and Intensity**: We limit the frequency of scraping requests to prevent any impact on the performance or availability of the websites we target. Our scraping is conducted in a way that avoids placing a significant load on the website’s infrastructure.
 - **Respect for Restrictions**: We do not bypass password protection, paywalls, or other restricted areas of the website. Our scraping is limited to publicly accessible pages only.
 - **Compliance with Terms of Service**: Section 4.24(f) of the Chuffed.org terms of service prohibits activities that impose an "unreasonably large load" on their infrastructure. We take this seriously and ensure that our scraping activities are light and do not overburden the website.
