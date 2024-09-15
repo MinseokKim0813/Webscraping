@@ -85,14 +85,7 @@ python3 main.py
 
 This will execute the scraper and perform an analysis of the campaigns based on category and location.
 
-## Project Structure
-
-- `main.py`            - Main Python script for scraping and analyzing the data  
-- `README.md`          - This file, explaining the project details and how to run it  
-- `requirements.txt`   - List of third-party libraries required to run the project  
-- `.venv/`             - Virtual environment folder (optional)
-
-## Summary of FundMonitor's Utility
+## Benefits of Using FundMonitor
 
 FundMonitor collects valuable data on social causes and their fundraising performance, including the amount raised, geographic location, and pace of fundraising. This dataset can benefit multiple sectors by enabling more informed decision-making and strategic interventions. Here’s how:
 
