@@ -1,8 +1,8 @@
-# Crowdfunding Campaign Data Scraper & Analysis
+# FundMonitor: Crowdfunding Campaign Data Scraper & Analysis
 
 ## Project Overview
 
-This Python project scrapes data from the crowdfunding platform Chuffed.org, which hosts campaigns to raise funds for social, community, and charitable causes. The primary goal of this scraper is to extract data related to active campaigns and analyze the performance based on:
+FundMonitor is a Python project that scrapes data from the crowdfunding platform Chuffed.org, which hosts campaigns to raise funds for social, community, and charitable causes. The primary goal of this scraper is to extract data related to active campaigns and analyze the performance based on:
 
 - Categories (e.g., Community, Environment, Refugees and Asylum Seekers)
 - Locations (e.g., Canada, Australia, United States, United Kingdom)
@@ -17,7 +17,7 @@ The results provide insights into the most successful categories and locations f
 
 ## Purpose
 
-The main purpose of this project is to provide an analysis of the best-performing crowdfunding campaigns based on category and location. By scraping and analyzing this data, the project aims to:
+The main purpose of FundMonitor is to provide an analysis of the best-performing crowdfunding campaigns based on category and location. By scraping and analyzing this data, the project aims to:
 
 - Identify trends in fundraising success
 - Highlight the best categories and locations for fundraising
@@ -94,7 +94,6 @@ This will execute the scraper and perform an analysis of the campaigns based on 
 ## Project Structure
 
 main.py            - Main Python script for scraping and analyzing the data  
-ETHICS.md          - Discussion on the ethical considerations of web scraping  
 README.md          - This file, explaining the project details and how to run it  
 requirements.txt   - List of third-party libraries required to run the project  
 .venv/             - Virtual environment folder (optional)  
@@ -110,10 +109,17 @@ To install these dependencies, run
 
 pip install -r requirements.txt
 
-## Ethical Considerations
+## Summary of FundMonitor's Utility
 
-This project follows responsible web scraping practices. Details about the ethical implications and the permissions from the target website, Chuffed.org, are discussed in the ETHICS.md file.
+FundMonitor collects valuable data on social causes and their fundraising performance, including the amount raised, geographic location, and pace of fundraising. This dataset can benefit multiple sectors by enabling more informed decision-making and strategic interventions. Here’s how:
 
-## License
+- **Nonprofits** can optimize their campaigns and benchmark their performance to improve fundraising outcomes and strategy.
+- **Philanthropists and donors** can allocate funds more effectively by targeting high-impact or underfunded causes.
+- **Corporations** involved in **Corporate Social Responsibility (CSR)** can align their giving with causes that resonate most with their stakeholders.
+- **Governments** can use the data to support policymaking, ensuring that resources are allocated where they are most needed.
+- **Academics** and **researchers** can study social behavior and cause effectiveness, identifying trends and donor motivations.
+- **Media and journalists** can raise public awareness of underfunded causes, contributing to more visibility and engagement.
+- **Investors** focused on social impact can make informed decisions by identifying causes that offer measurable returns.
+- **Technology providers** like fundraising platforms can use the data to improve user experiences and develop predictive models for future trends.
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+By providing these insights, FundMonitor creates a positive feedback loop that helps drive support for social causes and enables organizations to maximize their impact.
