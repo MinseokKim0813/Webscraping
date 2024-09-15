@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import json2
+import json
 import re
 from collections import defaultdict
 
@@ -57,7 +57,7 @@ def scrape(url):
         json_data = json_data_match.group(1)
         
         # Convert to a proper Python dictionary
-        campaigns_data = json2.loads(json_data.replace("window.Chuffed.campaigns = ", ""))
+        campaigns_data = json.loads(json_data.replace("window.Chuffed.campaigns = ", ""))
         
         return campaigns_data
 
