@@ -18,19 +18,6 @@ We follow ethical web scraping practices to ensure that our activities do not ca
 
 ## Data Usage, Handling, and Privacy
 
-The data collected from this project will be used strictly for **educational and research purposes**. We ensure that:
-
-- The data will not be used for commercial gain, sold, or redistributed in ways that could violate the privacy or intellectual property rights of the original sources.
-- Any published findings or shared insights derived from this data will be used to further the understanding of fundraising trends and help organizations optimize their social impact.
 - **No Collection of Personal Information**: We do not collect any personal data. The data collected is focused entirely on fundraising statistics, such as the total amounts raised and the geographical locations of campaigns.
-- **Secure Data Storage**: All data collected will be securely stored and handled. We ensure that sensitive files are excluded from public repositories by using `.gitignore`, preventing any unintended exposure.
+- **Secure Data Storage**: We do not store any data.
 
-## Conclusion
-
-We recognize that responsible data collection is key to maintaining ethical standards in web scraping. By adhering to the following principles:
-
-- Scraping only once per execution, ensuring minimal impact on the website's resources
-- Avoiding any collection of personal information
-- Ensuring secure and ethical handling of the data
-
-FundMonitor aims to provide valuable insights while ensuring that the rights and resources of the websites and individuals we interact with are respected. By following these practices, we maintain the integrity of the data collection process and contribute positively to the social good.
