@@ -66,26 +66,20 @@ Best Average Money Raised Per Day:
 Category: Environment - 4575.16 USD  
 Location: United Kingdom - 4949.88 USD  
 
-## How to Run This Project
+## Dependencies
 
-### Prerequisites
+The project uses the following external libraries, listed in `requirements.txt`:
 
-- Python 3.x installed on your system
-- pip package manager to install the required dependencies
+- `requests` - For sending HTTP requests to retrieve HTML content from the website.
+- `beautifulsoup4` - For parsing the HTML content and extracting the relevant data.
 
-### Installation
+To install these dependencies, run:
 
-1. Clone the repository to your local machine
+pip install -r requirements.txt
 
-2. Navigate into the project directory
+## Running the Program
 
-3. Set up a virtual environment (optional but recommended)
-
-4. Install the required dependencies
-
-### Running the Program
-
-To run the program and analyze the scraped data, use the following command
+To run the program and analyze the scraped data, use the following command:
 
 python3 main.py
 
@@ -93,21 +87,10 @@ This will execute the scraper and perform an analysis of the campaigns based on 
 
 ## Project Structure
 
-main.py            - Main Python script for scraping and analyzing the data  
-README.md          - This file, explaining the project details and how to run it  
-requirements.txt   - List of third-party libraries required to run the project  
-.venv/             - Virtual environment folder (optional)  
-
-### Dependencies
-
-The project uses the following external libraries, listed in requirements.txt
-
-- requests - For sending HTTP requests to retrieve HTML content from the website
-- beautifulsoup4 - For parsing the HTML content and extracting the relevant data
-
-To install these dependencies, run
-
-pip install -r requirements.txt
+- `main.py`            - Main Python script for scraping and analyzing the data  
+- `README.md`          - This file, explaining the project details and how to run it  
+- `requirements.txt`   - List of third-party libraries required to run the project  
+- `.venv/`             - Virtual environment folder (optional)
 
 ## Summary of FundMonitor's Utility
 
