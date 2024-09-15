@@ -85,7 +85,7 @@ python3 main.py
 
 This will execute the scraper and perform an analysis of the campaigns based on category and location.
 
-## Benefits of Using FundMonitor
+## Potential Use of FundMonitor
 
 FundMonitor collects valuable data on social causes and their fundraising performance, including the amount raised, geographic location, and pace of fundraising. This dataset can benefit multiple sectors by enabling more informed decision-making and strategic interventions. Here’s how:
 
