@@ -8,13 +8,6 @@ The primary purpose of our project, FundMonitor, is to collect data on the perfo
 
 This data is being collected strictly for **educational and research purposes**. The goal is to enhance the understanding of fundraising trends and provide actionable insights that can help organizations, philanthropists, and other stakeholders focus their efforts on the most impactful causes. We are not using the data for commercial purposes or for profit-driven activities. Our analysis is aimed at helping the social impact sector make informed decisions that benefit the public good.
 
-## Data Sources and Respect for `robots.txt`
-
-We ensure that all data we collect comes from publicly available sources and respect the rules set by those sources. In line with this:
-
-- **Respect for `robots.txt`**: Before initiating any scraping activity, we check the `robots.txt` file of the domain to determine the website's rules regarding scraping. For example, we review `https://www.chuffed.org/robots.txt` to ensure that our activities comply with the website's guidelines.
-- We only scrape websites that do **not prohibit scraping** in their terms of service and where it is explicitly allowed by the website's rules.
-
 ## Collection Practices
 
 We follow ethical web scraping practices to ensure that our activities do not cause any harm or disruption to the website we collect data from:
@@ -43,7 +36,6 @@ The data collected from this project will be used strictly for **educational and
 
 We recognize that responsible data collection is key to maintaining ethical standards in web scraping. By adhering to the following principles:
   
-- Respecting the `robots.txt` and terms of service of the websites we scrape
 - Limiting our requests to reduce the load on the website's infrastructure
 - Scraping only once, ensuring minimal impact on the website's resources
 - Avoiding any collection of sensitive or personal information
