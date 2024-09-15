@@ -16,15 +16,12 @@ We follow ethical web scraping practices to ensure that our activities do not ca
 - **Respect for Restrictions**: We do not bypass password protection, paywalls, or other restricted areas of the website. Our scraping is limited to publicly accessible pages only.
 - **Compliance with Terms of Service**: Section 4.24(f) of the Chuffed.org terms of service prohibits activities that impose an "unreasonably large load" on their infrastructure. We take this seriously and ensure that our scraping activities are light and do not overburden the website.
 
-## Data Usage
+## Data Usage, Handling, and Privacy
 
 The data collected from this project will be used strictly for **educational and research purposes**. We ensure that:
 
 - The data will not be used for commercial gain, sold, or redistributed in ways that could violate the privacy or intellectual property rights of the original sources.
 - Any published findings or shared insights derived from this data will be used to further the understanding of fundraising trends and help organizations optimize their social impact.
-
-### Data Handling and Privacy
-
 - **No Collection of Personal Information**: We do not collect any personal data. The data collected is focused entirely on fundraising statistics, such as the total amounts raised and the geographical locations of campaigns.
 - **Secure Data Storage**: All data collected will be securely stored and handled. We ensure that sensitive files are excluded from public repositories by using `.gitignore`, preventing any unintended exposure.
 
